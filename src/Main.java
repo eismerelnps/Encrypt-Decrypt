@@ -80,7 +80,7 @@ public class Main {
                 String Message = "Ha ocurrido un error al decifrar su contraseña, verifique que ha introducido correctamente su contrasena encryptada";
                 return Message;
             }catch (BadPaddingException exception){
-                String Message = "Ha ocurrido un error al decifrar su contraseña, verifique que ha introducido correctamente su contraseña de encriptamiento";
+                String Message = "Ha ocurrido un error al decifrar su contraseña, verifique que ha introducido correctamente su contraseña de encriptamiento-desencriptamiento";
                 return Message;
             }
 
